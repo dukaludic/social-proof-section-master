@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.upper-wrapper {
+    display: flex;
+    width: 1500px;
+    margin: 100px auto;
+}
+
+.hero {
+    flex: 1;
+    /* margin-right: 400px; */
+    width: 300px;
+}
+
+.hero-header {
+    color:  #511f50;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.hero-paragraph {
+    font-weight: 400;
+    color:  #511f50;
+    font-size: 16px;
+    line-height: 24px;
+    width: 500px;
+}
+
+.ratings-wrapper {
+    flex: 1;
+    align-self: center;
+    align-items: flex-end;
+}
+
+.rating {
+    display: flex;
+    background-color: #f7f2f8;
+    height: 50px;
+    width: 500px;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin-left: 150px;
+}
+
+.rating:nth-child(2) {
+    margin-left: 200px;
+}
+
+.rating:nth-child(3) {
+    margin-left: 250px;
+    margin-bottom: 0;
+}
+
+.rating > p {
+    font-weight: 700;
+    color: #511f50;
+    margin-left: 20px;
+}
+
+.stars {
+    margin-left: 30px;
+}
+
+.cards-wrapper {
+    display: flex;
+    width: 1500px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.card {
+    width: 470px;
+    height: 300px;
+    background-color:#511f50;
+    border-radius: 12px;
+}
+
+.card-header {
+    margin: 40px;
+    display: flex;
+}
+
+.card-paragraph {
+    margin: 40px;
+    color: white;
+    line-height: 24px;
+}
+
+.card-header > img {
+    border-radius: 50px;
+    height: 60px;
+}
+
+.card-title {
+    margin-left: 30px;
+}
+
+.card-header-title {
+    color: white;
+    margin-bottom: 6px;
+}
+
+.card-header-paragraph {
+    color: #c076ab;
+}
